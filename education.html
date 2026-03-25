@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Education | Manasi Singh</title>
+    <meta name="description" content="Education, coursework, and achievements of Manasi Singh." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./index.html">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">Manasi Singh</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./education.html">Education</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="icon-btn__sun" aria-hidden="true">☀</span>
+          <span class="icon-btn__moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Education</h2>
+            <p>From your resume screenshot (you can refine institute names/scores if needed).</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline__item card">
+              <div class="timeline__title">
+                <h3>B.Tech — Computer Science & Engineering</h3>
+                <span class="muted">2022 – 2026</span>
+              </div>
+              <p class="muted">CGPA: <strong>8.5/10</strong> (as listed)</p>
+            </article>
+
+            <article class="timeline__item card">
+              <div class="timeline__title">
+                <h3>Class XII</h3>
+                <span class="muted">2021 – 2022</span>
+              </div>
+              <p class="muted">Percentage: <strong>90.25%</strong> (as listed)</p>
+            </article>
+
+            <article class="timeline__item card">
+              <div class="timeline__title">
+                <h3>Class X</h3>
+                <span class="muted">2019 – 2020</span>
+              </div>
+              <p class="muted">Percentage: <strong>94%</strong> (as listed)</p>
+            </article>
+          </div>
+
+          <div class="grid grid--2 section__subgrid">
+            <article class="card">
+              <h3>Relevant coursework</h3>
+              <ul class="list">
+                <li>Data Structures & Algorithms (basic)</li>
+                <li>Operating Systems</li>
+                <li>Database Management System</li>
+                <li>Computer Networks</li>
+                <li>Object-Oriented Programming</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Achievements</h3>
+              <ul class="list">
+                <li>8th Position — Internal Hackathon (University level)</li>
+                <li>5th Rank — CodeChef competition</li>
+                <li>Data Science certification — PhysicsWallah (PW)</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="muted">© <span id="year"></span> Manasi Singh</span>
+        <a class="muted" href="#content">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+

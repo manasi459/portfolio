@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Manasi Singh | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Manasi Singh — web developer (React, Node, Express, MongoDB) with projects across full‑stack, chat apps, and APIs."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="brand">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">Manasi Singh</span>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./education.html">Education</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="icon-btn__sun" aria-hidden="true">☀</span>
+          <span class="icon-btn__moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__left">
+            <p class="eyebrow">Web Developer • Full‑Stack</p>
+            <h1 class="hero__title">Building clean, reliable web experiences.</h1>
+            <p class="hero__subtitle">
+              I’m <strong>Manasi Singh</strong>, a Computer Science & Engineering student focused on
+              modern web development with <strong>React</strong> and <strong>Node/Express</strong>.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="./projects.html">View projects</a>
+              <a class="btn btn--ghost" href="./contact.html">Contact</a>
+            </div>
+
+            <div class="hero__meta" role="list" aria-label="Highlights">
+              <div class="pill" role="listitem">
+                <span class="pill__label">Stack</span>
+                <span class="pill__value">React • Node • Express • MongoDB</span>
+              </div>
+              <div class="pill" role="listitem">
+                <span class="pill__label">Languages</span>
+                <span class="pill__value">Java • Python • JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__right" aria-hidden="true">
+            <div class="card card--glow">
+              <div class="stat">
+                <div class="stat__k">Key strengths</div>
+                <div class="stat__v">
+                  Frontend craftsmanship, backend APIs, databases, and practical projects.
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="chips">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">Bootstrap</span>
+                <span class="chip">React</span>
+                <span class="chip">Node</span>
+                <span class="chip">Express</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Explore</h2>
+            <p>All sections are now on separate pages. Use the cards below to navigate.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <a class="card card--link" href="./about.html">
+              <h3>About</h3>
+              <p class="muted">What I do, coursework, hobbies, and quick notes.</p>
+            </a>
+            <a class="card card--link" href="./skills.html">
+              <h3>Skills</h3>
+              <p class="muted">Web development, languages, databases, and tools.</p>
+            </a>
+            <a class="card card--link" href="./projects.html">
+              <h3>Projects</h3>
+              <p class="muted">WanderLust, Chatter Chimp, Weather App, and more.</p>
+            </a>
+            <a class="card card--link" href="./education.html">
+              <h3>Education</h3>
+              <p class="muted">Education timeline + coursework + achievements.</p>
+            </a>
+            <a class="card card--link" href="./contact.html">
+              <h3>Contact</h3>
+              <p class="muted">Contact details + message template copier.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="muted">© <span id="year"></span> Manasi Singh</span>
+        <a class="muted" href="#content">Back to top</a>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Manasi Singh",
+        "jobTitle": "Web Developer",
+        "knowsAbout": ["React", "Node.js", "Express", "MongoDB", "SQL", "Java", "Python"]
+      }
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+

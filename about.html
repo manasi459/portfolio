@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>About | Manasi Singh</title>
+    <meta
+      name="description"
+      content="About Manasi Singh — web developer focused on React, Node/Express, and building responsive web apps."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./index.html">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">Manasi Singh</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./education.html">Education</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="icon-btn__sun" aria-hidden="true">☀</span>
+          <span class="icon-btn__moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>About</h2>
+            <p>
+              I enjoy turning ideas into polished web apps—focusing on usability, responsive UI, and
+              solid backend fundamentals.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="card">
+              <h3>What I do</h3>
+              <ul class="list">
+                <li>Build responsive UIs with React and modern CSS.</li>
+                <li>Design REST APIs with Node.js + Express.</li>
+                <li>Work with databases (MongoDB, SQL) and common tooling.</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Quick notes</h3>
+              <dl class="facts">
+                <div class="facts__row">
+                  <dt>Coursework</dt>
+                  <dd>DSA, OS, DBMS, CN, OOP</dd>
+                </div>
+                <div class="facts__row">
+                  <dt>Activities</dt>
+                  <dd>Active Member — Tech Fusion Club</dd>
+                </div>
+                <div class="facts__row">
+                  <dt>Hobbies</dt>
+                  <dd>Dancing; listening to spiritual music</dd>
+                </div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="muted">© <span id="year"></span> Manasi Singh</span>
+        <a class="muted" href="#content">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+

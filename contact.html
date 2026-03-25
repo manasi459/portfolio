@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Contact | Manasi Singh</title>
+    <meta name="description" content="Contact Manasi Singh — email, phone, and social links." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="./index.html">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">Manasi Singh</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./education.html">Education</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="icon-btn__sun" aria-hidden="true">☀</span>
+          <span class="icon-btn__moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contact</h2>
+            <p>Add your exact email/phone + links below.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="card">
+              <h3>Message</h3>
+              <form class="form" onsubmit="return false;">
+                <label class="field">
+                  <span>Name</span>
+                  <input type="text" placeholder="Your name" autocomplete="name" />
+                </label>
+                <label class="field">
+                  <span>Email</span>
+                  <input type="email" placeholder="you@example.com" autocomplete="email" />
+                </label>
+                <label class="field">
+                  <span>Message</span>
+                  <textarea rows="4" placeholder="Write a short message..."></textarea>
+                </label>
+                <button class="btn btn--primary" type="button" id="copyContactBtn">
+                  Copy contact template
+                </button>
+                <p class="muted small" id="copyNote" aria-live="polite"></p>
+              </form>
+            </article>
+
+            <article class="card">
+              <h3>Details</h3>
+              <dl class="facts">
+                <div class="facts__row">
+                  <dt>Email</dt>
+                  <dd><a href="#" data-placeholder="email">Add your email</a></dd>
+                </div>
+                <div class="facts__row">
+                  <dt>Phone</dt>
+                  <dd><a href="#" data-placeholder="phone">Add your phone</a></dd>
+                </div>
+                <div class="facts__row">
+                  <dt>LinkedIn</dt>
+                  <dd><a href="#" data-placeholder="linkedin">Add your LinkedIn</a></dd>
+                </div>
+                <div class="facts__row">
+                  <dt>GitHub</dt>
+                  <dd><a href="#" data-placeholder="github">Add your GitHub</a></dd>
+                </div>
+                <div class="facts__row">
+                  <dt>Location</dt>
+                  <dd>India</dd>
+                </div>
+              </dl>
+
+              <div class="callout">
+                <strong>Tip:</strong> Once you paste your real links, this page is ready to deploy on
+                GitHub Pages / Netlify.
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="muted">© <span id="year"></span> Manasi Singh</span>
+        <a class="muted" href="#content">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
