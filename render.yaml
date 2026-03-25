@@ -1,7 +1,6 @@
 services:
-  - type: static_site
+  - type: static
     name: manasi-portfolio
-    env: static
     staticPublishPath: .
     pullRequestPreviewsEnabled: true
 
