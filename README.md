@@ -25,6 +25,10 @@ Then open `http://localhost:5173`.
    - **Publish Directory**: `.`
 5. Click **Create Static Site**.
 
+Deploy button (uses this repo URL after pushing):
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/manasi459/portfolio)
+
 ## What to update
 
 - `index.html` → replace the placeholders in **Contact** (email/phone/LinkedIn/GitHub).
