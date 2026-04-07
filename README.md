@@ -34,4 +34,8 @@ Deploy button (uses this repo URL after pushing):
 - `index.html` → replace the placeholders in **Contact** (email/phone/LinkedIn/GitHub).
 - `index.html` → in **Projects**, add your real project links (GitHub + live demos).
 - Optional: Add your `resume.pdf` into this folder and add a “Download Resume” button.
+<br>
 
+
+
+Author-Manasi Singh
